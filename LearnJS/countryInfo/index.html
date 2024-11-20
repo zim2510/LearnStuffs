@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Country Info Viewer 0.1a</title>
+        <style>
+            .info{
+                border-style: solid;
+                border-color: black;
+                border-width: 5px;
+                margin: auto;
+                width: 75%;
+            }
+            span{
+                color: black;
+                font-size: 2rem;
+                font-family: cursive;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: center">
+            <h2>COUNTRY INFO VIEWER</h2>
+            <select id="countryDropDown"></select>
+            <div id="info" class="info" style="margin-top: 50px;"></div>
+            <div id="flag" class="info" style="margin-top: -5px;"></div>
+        </div>
+        <script src="request.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

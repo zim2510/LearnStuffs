@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+
+h2{
+    font-family: monospace;
+    font-size: 60px;
+    color: white;
+    letter-spacing: 0.2em;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+.in{
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 45px;
+    text-align: center;
+    height: 300px;
+    width: 60%;
+    color: white;
+    justify-content: center;
+}
+
+.in:focus{
+    font-size: 30px;
+    outline: none;
+}
+
+#btnEnDe{
+    background-color: rgb(24, 19, 56);
+    color: #ccc;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(23, 19, 51);
+    color: rgb(165, 170, 180);
+    padding: 5px 15px;
+    margin: 35px;
+}
+
+#btnAgain{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(23, 19, 51);
+    color: rgb(165, 170, 180);
+    padding: 5px 15px;
+    margin: 35px;
+    display: none;
+}

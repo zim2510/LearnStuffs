@@ -1,0 +1,86 @@
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<script>
+  $(document).ready(function() {
+      $("#pgraph").css({"background-color":"black", "color":"#FFF", "opacity":"0.7"});
+      $("#pgraph2").css({"background-color":"black", "color":"#FFF", "opacity":"0.7"});
+      $("p").css({"font-family":"monospace"});
+      $("#right").children().css({"background-color":"black", "color":"#FFF", "opacity":"0.7"});
+      $("#title").css({"font-family":"Roboto", "color":"#CCC"});
+    });
+</script>
+
+
+<style>
+#logo{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .circle-border{
+    border-radius: 40%;
+    border-color: black;
+    border-style: solid;
+    height: 150px;
+    width: 150px;
+  }
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 60%;
+    color: white;
+    text-align: center;
+  }
+  body {
+   background-image: url("https://tau0.files.wordpress.com/2014/03/west_texas_cloudy_sun_bw.jpg");
+   background-color: #cccccc;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+}
+</style>
+
+<html>
+<div class="container-fluid">
+  <!--For Top-->
+  <div class="row row-eq-height">
+    <div class="col-md-3">
+      <img id="logo" class="circle-border img-responsive" src="https://image.ibb.co/iasFao/Ritchie.jpg" alt="Jinish" style="padding:10px; margin-top: 10px; margin-bottom: 10px">
+    </div>
+    <div class="col-md-7">
+      <h2 class="text-center" style="text-align: center;padding: 70px" id="title">A tribute to Dennis Ritchie</h2>
+    </div>
+    <div class="col-md-2">
+    </div>
+  </div>
+
+
+  <!--Mid-->
+  <div class = "row row-eq-height" style="margin-top:0px">
+    <div class="col-md-3" id="right" >
+      <h1 class="text-center">DENNIS RITCHIE</h1>
+      <p class="text-default text-center">1941-2011</p>
+    </div>
+    <div class="col-md-7" id="pgraph">
+      <p>Dennis MacAlistair Ritchie (September 9, 1941 - October 12, 2011) was an American computer scientist. He created the C programming language and, with long-time colleague Ken Thompson, the Unix operating system. Ritchie and Thompson were awarded the Turing Award from the ACM in 1983, the Hamming Medal from the IEEE in 1990 and the National Medal of Technology from President Bill Clinton in 1999. Ritchie was the head of Lucent Technologies System Software Research Department when he retired in 2007. He was the "R" in K&R C, and commonly known by his username dmr.</p>
+      <p>Ritchie is best known as the creator of the C programming language, a key developer of the Unix operating system, and co-author of the book The C Programming Language; he was the 'R' in K&R (a common reference to the book's authors Kernighan and Ritchie). Ritchie worked together with Ken Thompson, who is credited with writing the original version of Unix; one of Ritchie's most important contributions to Unix was its porting to different machines and platforms. They were so influential on Research Unix that Doug McIlroy later wrote, "The names of Ritchie and Thompson may safely be assumed to be attached to almost everything not otherwise attributed." Ritchie liked to emphasize that he was just one member of a group. He suggested that many of the improvements he introduced simply "looked like a good thing to do," and that anyone else in the same place at the same time might have done the same thing. But Bjarne Stroustrup who designed C++ said "If Dennis had decided to spend that decade on esoteric math, Unix would have been stillborn." Nowadays, the C language is widely used today in application, operating system, and embedded system development, and its influence is seen in most modern programming languages. Unix has also been influential, establishing computing concepts and principles that have been widely adopted. In an interview from 1999, Ritchie clarified that he saw Linux and BSD operating systems as a continuation of the basis of the Unix operating system, and as derivatives of Unix: I think the Linux phenomenon is quite delightful, because it draws so strongly on the basis that Unix provided. Linux seems to be among the healthiest of the direct Unix derivatives, though there are also the various BSD systems as well as the more official offerings from the workstation and mainframe manufacturers.In the same interview, he stated that he viewed both Unix and Linux as "the continuation of ideas that were started by Ken and me and many others, many years ago."</p>
+      <p>Ritchie was found dead on October 12, 2011, at the age of 70 at his home in Berkeley Heights, New Jersey, where he lived alone. First news of his death came from his former colleague, Rob Pike. The cause and exact time of death have not been disclosed. He had been in frail health for several years following treatment for prostate cancer and heart disease. News of Ritchie's death was largely overshadowed by the media coverage of the death of Apple founder Steve Jobs, which occurred the week before.</p>
+    </div>
+    <div class="col-md-2">
+      <div id="pgraph2">
+          <p class="text-center">To learn more about him from Wikipedia <a href="https://en.wikipedia.org/wiki/Dennis_Ritchie">CLICK HERE</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Made with love by Jim</p>
+  </div>div>
+</div>
+</html>
